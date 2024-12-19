@@ -1,0 +1,689 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.AboutPage {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ .AboutPageDiv{
+  padding: 1rem;
+}
+
+.AboutPageDiv h1{
+  text-align: center;
+  text-transform: uppercase;
+  --tw-text-opacity: 1;
+  color: rgb(23 37 84 / var(--tw-text-opacity));
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.AboutPageDiv1{
+  padding: 1.25rem;
+}
+
+ .AboutPageDiv1 h2{
+  --tw-text-opacity: 1;
+  color: rgb(23 37 84 / var(--tw-text-opacity));
+  font-weight: 700;
+  text-align: left;
+  font-size: 15px;
+}
+
+.AboutPageDiv1 p{
+  text-align: justify;
+  font-size: 15px;
+}
+
+.CarsSection{
+  width: 100%;
+  margin: auto;
+  padding: 1rem ;
+}
+
+
+.CarsSection h2{
+  --tw-text-opacity: 1;
+  color: rgb(23 37 84 / var(--tw-text-opacity));
+  font-weight: 700;
+  font-size: 18px;
+  /* text-align: start; */
+}
+
+.CarsSection h2 hr {
+  border-style: solid;
+  border-width: 2px;
+  --tw-border-opacity: 1;
+  border-color: rgb(79 70 229 / var(--tw-border-opacity));
+}
+
+.carsPics .firstSec,
+.carsPics .secondSec,
+.carsPics .thirdSec{
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-bottom: 0.75rem;
+}
+
+.carsPics .firstSec .SectionDiv,
+.carsPics .secondSec .SectionDiv,
+.carsPics .thirdSec .SectionDiv
+{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.SectionDiv img{
+  margin-left: auto;
+  margin-right: auto
+}
+
+.mainfooter{
+  --tw-bg-opacity: 1;
+  background-color: rgb(23 37 84 / var(--tw-bg-opacity));
+  min-height: 6rem;
+  margin-top: 1.25rem;
+  width: 100%;
+}
+
+.mainfooter footer{
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.75rem;
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+footer .footer1Div h2{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  font-weight: 700;
+  font-size: 16px;
+}
+
+footer .footer1Div p{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  font-weight: 300;
+}
+
+footer .subFooterDiv{
+  display: flex;
+  justify-content: space-around;
+  gap: 2.5rem;
+
+}
+
+
+.subFooterDiv .footer2Div h2{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.subFooterDiv .footer2Div ul{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  font-weight: 300;
+}
+
+.subFooterDiv .footer3Div h2{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  font-weight: 700;
+  font-size: 16px;
+
+}
+
+.subFooterDiv .footer3Div p{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  font-weight: 300;
+}
+
+.mainHeader {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  position: sticky;
+  top: 0px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.mainHeader header{
+  margin-top: 1.25rem;
+  display: grid;
+  gap: 0.5rem;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mainHeader header .logo{
+  margin-bottom: 0.5rem;
+  margin-top: 0.75rem;
+
+}
+
+.mainHeader header .logo img{
+  width: 150px;
+  margin-left: 1rem;
+}
+
+header .header1Div {
+  display: none;
+}
+
+header .header1Div ul{
+  display: flex;
+  justify-content: center;
+  gap: 2.25rem;
+  margin-top: 0.75rem;
+  font-size: 18px;
+
+}
+.header1Div ul li{
+  font-weight: 600;
+  
+}
+
+.header1Div ul li:hover {
+  --tw-text-opacity: 1;
+    color: rgb(30 64 175 / var(--tw-text-opacity));
+    text-decoration-line: underline;
+
+}
+
+header .header2Div{
+  position: absolute;
+  right: 1.5rem;
+  top: 0.75rem;
+
+}
+
+.header3Div ul{
+  margin-top: 0.75rem;
+  font-size: 18px;
+  text-align: center;
+  line-height: 50px;
+  align-items: center;
+
+}
+
+.header3Div ul li{
+  font-weight: 600;
+}
+
+
+.header3Div ul li:hover{
+  --tw-text-opacity: 1;
+    color: rgb(30 64 175 / var(--tw-text-opacity));
+    text-decoration-line: underline;
+}
+
+.barnner img{
+  width: 100%;
+}
+
+.contactPage{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contactPageDiv1{
+  padding: 1rem;
+}
+
+.contactPageDiv1 h1{
+  text-transform: uppercase;
+  --tw-text-opacity: 1;
+  color: rgb(23 37 84 / var(--tw-text-opacity));
+  font-weight: 700;
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 1.25rem ;
+}
+
+.contactPage .location{
+  width: 100%;
+}
+
+.contactPage .location img{
+  width: 100%;
+  --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+    --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.contactPage .contactDetails .contactPageDiv2{
+  padding: 1.25rem;
+
+}
+
+.contactDetails .contactPageDiv2 h2{
+  --tw-text-opacity: 1;
+    color: rgb(23 37 84 / var(--tw-text-opacity));
+    font-weight: 700;
+    text-align: left;
+    font-size: 15px;
+
+}
+
+.contactDetails .contactPageDiv2 p{
+  text-align: justify;
+  font-size: 15px;
+}
+
+.contactDetails .contactPageDiv2 h5{
+  font-weight: 700;
+}
+
+.reviewsPage{
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem ;
+}
+
+.reviewsPage .reviewsPageDiv1{
+  width: 100%;
+  margin-left: auto;
+    margin-right: auto;
+}
+
+.reviewsPage .reviewsPageDiv1 h2{
+  text-transform: uppercase;
+  --tw-text-opacity: 1;
+  color: rgb(23 37 84 / var(--tw-text-opacity));
+  font-weight: 700;
+  text-align: center;
+  font-size: 16px;
+}
+
+.reviewsPage .reviewsPageDiv1 h4{
+  text-transform: uppercase;
+  --tw-text-opacity: 1;
+  color: rgb(23 37 84 / var(--tw-text-opacity));
+  font-weight: 700;
+  text-align: center;
+  font-size: 14px;
+
+}
+
+.reviewsPage .feedback{
+  padding: 1.25rem ;
+
+}
+
+.reviewsPage .feedback .rewiew1{
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.feedback .rewiew1 img{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.feedback .reviewsPageDiv2 h2{
+  text-align: center;
+  font-size: 14px;
+  --tw-text-opacity: 1;
+  color: rgb(23 37 84 / var(--tw-text-opacity));
+  font-weight: 700;
+  margin-top: 0.5rem ;
+}
+
+.feedback .reviewsPageDiv2 h5{
+  text-align: center;
+  font-size: 14px;
+  --tw-text-opacity: 1;
+  color: rgb(23 37 84 / var(--tw-text-opacity));
+  font-weight: 700;
+  margin-bottom: 0.5rem ;
+}
+
+.feedback .reviewsPageDiv2 p{
+  text-align: justify;
+  font-size: 15px;
+
+}
+
+.HomePage{
+  width: 100%;
+  margin: auto;
+
+}
+
+.HomePageDiv{
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem ;
+}
+
+.HomePageDiv h2{
+  text-transform: uppercase;
+  --tw-text-opacity: 1;
+  color: rgb(23 37 84 / var(--tw-text-opacity)) ;
+  font-weight: 700;
+  text-align: center;
+  font-size: 16px;
+
+}
+
+@media (min-width: 640px) {
+  
+  .AboutPageDiv h1{
+    font-size: 26px;
+  }
+
+  .AboutPageDiv1 h2{
+    font-size: 20px;
+  }
+
+  .CarsSection {
+    max-width: 640px;
+}
+
+  .CarsSection h2{
+    font-size: 20px;
+
+  }
+
+  .CarsSection h2 hr{
+    width: 12rem;
+    width: 14rem ;
+  }  
+
+  .SectionDiv{
+    width: 100%;
+  }
+
+  .mainfooter footer{
+    max-width: 640px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  footer .subFooterDiv{
+    justify-content: space-evenly;
+  
+  }
+  .mainHeader header{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  
+  }
+  .mainHeader header .logo img{
+  
+    width: 250px;
+    margin: auto;
+  }
+  header .header2Div{
+    top: 1rem ;
+    display: block;
+  
+  }
+  .barnner img{
+    width: 100%;
+  }
+  .contactPageDiv1 h1{
+    font-size: 26px;
+  
+  }
+  .contactDetails .contactPageDiv2 h2{
+    font-size: 20px;
+  }
+  .reviewsPage .reviewsPageDiv1{
+    max-width: 640px;
+  }
+  
+  .reviewsPage .reviewsPageDiv1 h2{
+    font-size: 26px;
+  }
+
+  .reviewsPage .reviewsPageDiv1 h4{
+    font-size: 24px;
+  }
+  
+  .feedback .reviewsPageDiv2 h2,
+  .feedback .reviewsPageDiv2 h5{
+    font-size: 18px;
+  }
+  .HomePage{
+    max-width: 640px;
+  }
+  
+  .HomePageDiv h2{
+    font-size: 26px;
+  }
+  
+  
+} 
+
+@media (min-width: 768px) {
+  .CarsSection {
+    max-width: 768px;
+  }
+  .mainfooter footer{
+    max-width: 768px; 
+  }
+  header .header1Div {
+    display: block;
+  }
+  header .header2Div{
+    display: none;
+  
+  }
+  .reviewsPage .reviewsPageDiv1{
+    max-width: 768px;
+  }
+  .HomePage{
+    max-width: 768px;
+  }
+  
+}
+
+@media (min-width: 1024px) {
+  .CarsSection {
+    max-width: 1024px;
+  }
+  .mainfooter footer{
+    max-width: 1024px; 
+  }
+  .reviewsPage .reviewsPageDiv1{
+    max-width: 1024px;
+  }
+  .HomePage{
+    max-width: 1024px;
+  }
+  
+}
+
+@media (min-width: 1280px) {
+  .CarsSection {
+    max-width: 1230px;
+  }
+  .mainfooter footer{
+   max-width: 1280px; 
+  }
+  .reviewsPage .reviewsPageDiv1{
+    max-width: 1280px;
+  }
+  .HomePage{
+    max-width: 1280px;
+  }
+  
+}
+
+
+@media (min-width: 1536px) {
+  .CarsSection {
+    max-width: 1536px;
+  }
+  .mainfooter footer{
+    max-width: 1536px; 
+  }
+  .reviewsPage .reviewsPageDiv1{
+    max-width: 1536px;
+  }
+  .HomePage{
+    max-width: 1536px;
+  }
+  
+}
+
+/* @media (min-width: 1280px) {
+  .CarsSection {
+    max-width: 1280px;
+  }
+  .mainfooter footer{
+   max-width: 1280px; 
+  }
+  .reviewsPage .reviewsPageDiv1{
+    max-width: 1280px;
+  }
+  .HomePage{
+    max-width: 1280px;
+  }
+  
+} */
+
+/* @media (min-width: 1024px) {
+  .CarsSection {
+    max-width: 1024px;
+  }
+  .mainfooter footer{
+    max-width: 1024px; 
+  }
+  .reviewsPage .reviewsPageDiv1{
+    max-width: 1024px;
+  }
+  .HomePage{
+    max-width: 1024px;
+  }
+  
+} */
+
+/* @media (min-width: 768px) {
+  .CarsSection {
+    max-width: 768px;
+  }
+  .mainfooter footer{
+    max-width: 768px; 
+  }
+  header .header1Div {
+    display: block;
+  }
+  header .header2Div{
+    display: none;
+  
+  }
+  .reviewsPage .reviewsPageDiv1{
+    max-width: 768px;
+  }
+  .HomePage{
+    max-width: 768px;
+  }
+  
+} */
+
+/* @media (min-width: 640px) {
+  
+  .AboutPageDiv h1{
+    font-size: 26px;
+  }
+
+  .AboutPageDiv1 h2{
+    font-size: 20px;
+  }
+
+  .CarsSection {
+    max-width: 640px;
+}
+
+  .CarsSection h2{
+    font-size: 20px;
+
+  }
+
+  .CarsSection h2 hr{
+    width: 12rem;
+    width: 14rem ;
+  }  
+
+  .SectionDiv{
+    width: 100%;
+  }
+
+  .mainfooter footer{
+    max-width: 640px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  footer .subFooterDiv{
+    justify-content: space-evenly;
+  
+  }
+  .mainHeader header{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  
+  }
+  .mainHeader header .logo img{
+  
+    width: 250px;
+    margin: auto;
+  }
+  header .header2Div{
+    top: 1rem ;
+    display: block;
+  
+  }
+  .barnner img{
+    width: 100%;
+  }
+  .contactPageDiv1 h1{
+    font-size: 26px;
+  
+  }
+  .contactDetails .contactPageDiv2 h2{
+    font-size: 20px;
+  }
+  .reviewsPage .reviewsPageDiv1{
+    max-width: 640px;
+  }
+  
+  .reviewsPage .reviewsPageDiv1 h2{
+    font-size: 26px;
+  }
+
+  .reviewsPage .reviewsPageDiv1 h4{
+    font-size: 24px;
+  }
+  
+  .feedback .reviewsPageDiv2 h2,
+  .feedback .reviewsPageDiv2 h5{
+    font-size: 18px;
+  }
+  .HomePage{
+    max-width: 640px;
+  }
+  
+  .HomePageDiv h2{
+    font-size: 26px;
+  }
+  
+  
+}  */
+
+
